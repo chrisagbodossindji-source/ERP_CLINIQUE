@@ -1,0 +1,27 @@
+# Dépendances
+**/node_modules
+**/vendor
+
+# Environnement et Secrets
+**/.env
+**/.env.backup
+**/.phpunit.result.cache
+
+# IDE
+**/.vscode
+**/.idea
+
+# Logs et temporaires
+**/storage/*.key
+**/storage/logs
+**/storage/framework/cache
+**/storage/framework/sessions
+**/storage/framework/views
+**/public/hot
+**/public/storage
+**/npm-debug.log
+**/yarn-error.log
+
+# Build
+**/dist
+**/build
